@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AboutComponent } from './about.component';
 import { RouterModule, Routes } from '@angular/router';
-
+import { NavigationModule } from '../navigation/navigation.module';
+import { TitleModule } from '../title/title.module';
 const moduleRoutes : Routes = [{path:'',component:AboutComponent}];
 
 export const AboutRoutes = RouterModule.forChild(moduleRoutes);
@@ -10,7 +11,9 @@ export const AboutRoutes = RouterModule.forChild(moduleRoutes);
 @NgModule({
   imports: [
     CommonModule,
-    AboutRoutes
+    AboutRoutes,
+    TitleModule,
+    NavigationModule
   ],
   declarations: [AboutComponent],
   exports : [AboutComponent]

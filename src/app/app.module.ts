@@ -10,18 +10,7 @@ import { IndexModule } from './index/index.module';
 import { ResumeModule } from './resume/resume.module';
 import { AboutModule } from './about/about.module';
 
-const moduleRoutes: Routes = [
-  {
-    path: '',
-    loadChildren: './index/index.module#IndexModule'
-  },
-  {
-    path: 'about',
-    loadChildren: './about/about.module#AboutModule'
-  },
-  { path: '**', redirectTo: '' }
-];
-
+import { ModuleRoutes } from './app.routing'
 
 @NgModule({
   declarations: [
@@ -34,7 +23,7 @@ const moduleRoutes: Routes = [
     IndexModule,
     ResumeModule,
     AboutModule,
-    RouterModule.forRoot(moduleRoutes),
+    RouterModule.forRoot(ModuleRoutes),
   ],
   providers: [],
   bootstrap: [AppComponent]
