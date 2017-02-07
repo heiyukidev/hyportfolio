@@ -10,6 +10,7 @@ export class SliderComponent implements OnInit {
   constructor() {
     this.pos = screen.width + 500;
   }
+  /*
   animate() {
     var elem = document.getElementById("giphy");
     elem.style.position = "relative";
@@ -18,11 +19,12 @@ export class SliderComponent implements OnInit {
     if (this.pos < -500) {
       this.pos = screen.width + 500;
     }
-    setTimeout(() => {
+    setTimeout(()=> {
       this.animate();
     }, 9);
-  }
+  }*/
   ngOnInit() {
-    this.animate();
+  //  this.animate();
   }
+
 }

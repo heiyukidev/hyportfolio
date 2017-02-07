@@ -1,19 +1,15 @@
-.slides {
-  width: 100%;
+hr {
+  width: 55%;
 }
-.inSlide {
-  position: relative;
-  text-align: center;
-  top: -450px;
-}
-.title {
-  font-size: 72px;
-  font-family: fantasy;
-  color: white;
-}
+
 .alternate {
-  color: #980000;
+  color:#007dc1;
 }
-.buttons{
-  margin-top: 35px;
+
+h1 {
+  font-size: 500%;
+}
+
+h3 {
+  font-size: 300%;
 }
