@@ -10,7 +10,7 @@ import { IndexModule } from './index/index.module';
 import { ResumeModule } from './resume/resume.module';
 import { AboutModule } from './about/about.module';
 
-import { ModuleRoutes } from './app.routing'
+import { ModuleRoutes } from './app.routing';
 
 @NgModule({
   declarations: [

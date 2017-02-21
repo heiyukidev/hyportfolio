@@ -1,9 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+import { routerTransition } from '../router.animations';
 
 @Component({
-  selector: 'app-resume',
+  selector: 'resume',
   templateUrl: './resume.component.html',
-  styleUrls: ['./resume.component.css']
+  styleUrls: ['./resume.component.css'],
+  animations: [routerTransition()],
+  host: {'[@routerTransition]': ''}
 })
 export class ResumeComponent implements OnInit {
 

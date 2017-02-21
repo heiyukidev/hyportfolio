@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { AboutComponent } from './about.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NavigationModule } from '../navigation/navigation.module';
-import { TitleModule } from '../title/title.module';
+import { QuoteModule } from '../quote/quote.module';
 const moduleRoutes : Routes = [{path:'',component:AboutComponent}];
 
 export const AboutRoutes = RouterModule.forChild(moduleRoutes);
@@ -12,7 +12,7 @@ export const AboutRoutes = RouterModule.forChild(moduleRoutes);
   imports: [
     CommonModule,
     AboutRoutes,
-    TitleModule,
+    QuoteModule,
     NavigationModule
   ],
   declarations: [AboutComponent],

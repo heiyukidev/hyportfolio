@@ -1,7 +1,6 @@
 {
-  "name": "portfolio",
-  "version": "0.0.0",
-  "license": "MIT",
+  "name": "hyportfolio",
+  "version": "0.1.0",
   "angular-cli": {},
   "scripts": {
     "ng": "ng",

@@ -10,5 +10,9 @@ export const ModuleRoutes: Routes = [
     path: 'about',
     loadChildren: './about/about.module#AboutModule'
   },
+  {
+    path: 'resume',
+    loadChildren: './resume/resume.module#ResumeModule'
+  },
   { path: '**', redirectTo: '' }
 ];

@@ -1,14 +1,42 @@
-html, body {
+body {
   max-width: 100%;
-  overflow-x: hidden;
-  #font-size: 18px;
   color: white;
-  #font-family: verdana;
+  font-size: 18px;
+  background: linear-gradient(
+                       rgba(20,20,20, .8),
+                       rgba(20,20,20, .8)),
+                       url("assets/slider.jpg");
   background-attachment: fixed;
-  background-image: url("assets/slider.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .centered {
   text-align: center;
+}
+
+hr {
+  width: 55%;
+}
+
+.alternate {
+  color:#007dc1;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+h2 {
+  font-size: 300%;
+}
+
+
+h3 {
+  font-size: 200%;
+}
+
+q {
+font-size:200%;
+font-style: italic;
 }
