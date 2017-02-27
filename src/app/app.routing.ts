@@ -14,5 +14,13 @@ export const ModuleRoutes: Routes = [
     path: 'resume',
     loadChildren: './resume/resume.module#ResumeModule'
   },
+  {
+    path: 'docs',
+    loadChildren: './docs/docs.module#DocsModule'
+  },
+  {
+    path: 'modules',
+    loadChildren: './modules/modules.module#ModulesModule'
+  },
   { path: '**', redirectTo: '' }
 ];

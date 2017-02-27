@@ -9,8 +9,10 @@ import { AppComponent } from './app.component';
 import { IndexModule } from './index/index.module';
 import { ResumeModule } from './resume/resume.module';
 import { AboutModule } from './about/about.module';
+import { DocsModule } from './docs/docs.module';
 
 import { ModuleRoutes } from './app.routing';
+import { ModulesModule } from './modules/modules.module';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { ModuleRoutes } from './app.routing';
     IndexModule,
     ResumeModule,
     AboutModule,
+    DocsModule,
+    ModulesModule,
     RouterModule.forRoot(ModuleRoutes),
   ],
   providers: [],
