@@ -19,7 +19,7 @@ hr {
 }
 
 .alternate {
-  color: #007dc1;
+  color: #01579b;
 }
 
 h1 {
@@ -54,5 +54,5 @@ ul {
 }
 
 p {
-  text-align: center;
+  text-align: justify;
 }
