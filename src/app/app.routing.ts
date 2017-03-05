@@ -22,5 +22,13 @@ export const ModuleRoutes: Routes = [
     path: 'modules',
     loadChildren: './modules/modules.module#ModulesModule'
   },
+  {
+    path: 'setup',
+    loadChildren: './setup/setup.module#SetupModule'
+  },
+  {
+    path: 'portfolio',
+    loadChildren: './portfolio/portfolio.module#PortfolioModule'
+  },
   { path: '**', redirectTo: '' }
 ];
