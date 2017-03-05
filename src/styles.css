@@ -2,7 +2,7 @@ body {
   max-width: 100%;
   color: white;
   font-size: 18px;
-  background: linear-gradient( rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)), url("assets/slider.jpg");
+  background: linear-gradient( rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)), url("assets/background.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
