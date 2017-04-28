@@ -1,12 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { routerTransition } from '../router.animations';
 
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.css'],
-  animations: [routerTransition()],
-  host: { '[@routerTransition]': '' }
+  styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent implements OnInit {
 
